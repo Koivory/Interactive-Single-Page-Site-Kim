@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Welcome to Vatican City</title>
 
     <!-- swiper css link  -->
     <link
       rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
     />
 
     <!-- font awesome cdn link  -->
@@ -22,10 +22,185 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- swiper js link -->
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- header section starts  -->
 
-    <!-- custom js file link -->
+    <section class="header">
+      <a href="home.php" class="logo">Sistine Chapel</a>
+
+      <nav class="navbar">
+        <a href="sources.html">Sources</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide slide"
+            style="
+              background: url(https://images.unsplash.com/photo-1531572753322-ad063cecc140?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80.jpg)
+                no-repeat;
+            "
+          >
+            <div class="content">
+              <h3>Welcome to Vatican City</h3>
+              <a href="" class="btn">discover more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide" style="">
+            <div class="content">
+              <span></span>
+              <h3>discover the new places</h3>
+              <a href="" class="btn">discover more</a>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/home-slide-3.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>explore, discover, travel</span>
+              <h3>make your tour worthwhile</h3>
+              <a href="" class="btn">discover more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services">
+      <h1 class="heading-title">Featured Artists</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/icon-1.png" alt="" />
+          <h3>Michealangelo</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/icon-2.png" alt="" />
+          <h3>Perugino</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/icon-3.png" alt="" />
+          <h3>Botticelli</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/icon-4.png" alt="" />
+          <h3>Signorelli</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- home about section starts  -->
+
+    <section class="home-about">
+      <div class="image">
+        <img src="images/about-img.jpg" alt="" />
+      </div>
+
+      <div class="content">
+        <h3>Michael Angelo</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et,
+          recusandae nobis fugit modi quibusdam ea assumenda, nulla quisquam
+          repellat rem aliquid sequi maxime sapiente autem ipsum? Nobis,
+          provident voluptate?
+        </p>
+        <a href="about.php" class="btn">read more</a>
+      </div>
+    </section>
+
+    <!-- home about section ends -->
+
+    <!-- home packages section starts  -->
+
+    <section class="home-packages">
+      <h1 class="heading-title">Sistine Chapel</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://www.thoughtco.com/thmb/f6CwTLpePy7Pxkvn6e0y0PKSqH0=/3456x2592/smart/filters:no_upscale()/SistineChapel-57ffd66e5f9b5805c2ac4916.jpg"
+              alt="Ceiling"
+            />
+          </div>
+          <div class="content">
+            <h3>Ceiling</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+              sint!
+            </p>
+            <a href="book.php" class="btn">Tour</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://www.museivaticani.va/content/dam/museivaticani/immagini/collezioni/musei/cappella_sistina/04_00_Parete_Nord_00.png/_jcr_content/renditions/cq5dam.web.1280.1280.png"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>North Wall</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+              sint!
+            </p>
+            <a href="book.php" class="btn">Tour</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://m.museivaticani.va/content/dam/museivaticani/immagini/collezioni/musei/cappella_sistina/05_00_Parete_Sud_00/_jcr_content/renditions/original.png"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>South Wall</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+              sint!
+            </p>
+            <a href="" class="btn">Tour</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="load-more">
+        <a href="" class="btn">load more</a>
+      </div>
+    </section>
+
+    <!-- home packages section ends -->
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
     <script src="js/script.js"></script>
   </body>
 </html>
